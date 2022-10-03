@@ -5,7 +5,7 @@ import csv
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-url = 'https://raw.githubusercontent.com/YJPark0421/Streamlit-POWERBI/main/ex-titanic-app/titanic.csv'
+url = 'https://raw.githubusercontent.com/YJPark0421/Streamlit-POWERBI/main/titanic.csv'
 df = pd.read_csv(url, index_col=0).reset_index()
 
 df = df.dropna()
